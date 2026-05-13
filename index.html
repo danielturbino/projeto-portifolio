@@ -5,19 +5,235 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="shortcut icon" href="favicon.svg" type="image/svg">
+    <script src="https://kit.fontawesome.com/5ea95df10c.js" crossorigin="anonymous"></script>
     <title>Portifólio Daniel Turbino</title>
 </head>
 <body>
     <header>
-
+        <nav id="menu">
+            <ul>
+                <li><a href="#ficha" class="link"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#projetos" class="link"><i class="fa-solid fa-trowel-bricks"></i></a></li>
+                <li><a href="#cursos" class="link"><i class="fa-solid fa-certificate"></i></a></li>
+                <li><a href="#" class="link" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <h1>Em Breve...</h1>
+        <section id="ficha">
+            <img src="imagens/WhatsApp Image 2026-05-12 at 08.26.14.jpeg" alt="Daniel Turbino" class="foto">
+            <h1>Daniel Turbino</h1>
+            <p>Desenvolvedor em formação focado em tecnologias Front-End: HTML, CSS e JavaScript. Com sólida base analítica e resolução de problemas técnicos complexos. Atualmente cursando Análise e Desenvolvimento de Sistemas, combino o domínio de ferramentas de versionamento Git/Github com uma mentalidade voltada para criação de interfaces responsivas e seguras.</p>
+            <div id="social">
+                <a href="https://www.linkedin.com/in/daniel-turbino/" target="_blank" rel="nofollow"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/danielturbino" target="_blank" rel="nofollow"><i class="fa-brands fa-github"></i></a>
+                <a href="#" target="_blank" rel="nofollow"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </section>
+
+        <section id="detalhes">
+            <article id="skills">
+                <h2><i class="fa-solid fa-brain"></i> Minhas Skills</h2>
+
+                <div id="skill-container">
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome"><i class="fa-solid fa-code"></i>
+                                HTML5
+                            </span>
+                            <span class="porcent">
+                                80%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 80%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome"><i class="fa-solid fa-code"></i>
+                                CSS3
+                            </span>
+                            <span class="porcent">
+                                70%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 70%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome"><i class="fa-solid fa-code"></i>
+                                JavaScript
+                            </span>
+                            <span class="porcent">
+                                50%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 50%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome"> <i class="fa-solid fa-person"></i>
+                                Comunicação
+                            </span>
+                            <span class="porcent">
+                                100%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome"><i class="fa-solid fa-person"></i>
+                                Trabalho em Equipe
+                            </span>
+                            <span class="porcent">
+                                90%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 9cm;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome"><i class="fa-solid fa-person"></i>
+                                Adaptabilidade
+                            </span>
+                            <span class="porcent">
+                                85%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 85%;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome"><i class="fa-solid fa-person"></i>
+                                Resolução de Problemas
+                            </span>
+                            <span class="porcent">
+                                80%
+                            </span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 80%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </article> <!-- Fim article skills -->
+
+            <article id="formacao">
+                <h2><i class="fa-solid fa-graduation-cap"></i> Formação</h2>
+
+                <div class="formacao-container">
+                    <div class="curso">
+                        <p class="periodo">2025 - 2026</p>
+                        <h3 class="instituicao">Faculdade Unicesumar</h3>
+                        <p class="titulacao">Técnico Análise e Desenvolvimento de Sistemas</p>
+                    </div>
+                </div>
+
+            </article> <!-- Fim article formação -->
+
+            <article id="projetos">
+                <h2><i class="fa-solid fa-trowel-bricks"></i> Projetos</h2>
+
+                <div id="projeto-container">
+                    <div class="projeto"> <!-- Projeto 01 --> 
+                        <img src="imagens/projeto-03-android.jpg" alt="Projeto 1" class="foto">
+                        <div class="info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto Android</h3>
+                            <p>Projeto Construído para treinar elementos básicos de HTML e CSS.</p>
+                            <details class="descricao">
+                                <summary>Saiba Mais..</summary>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis sed tempora eveniet fuga cupiditate error aliquid. Harum itaque ut exercitationem. Nesciunt soluta ipsam voluptate aperiam repudiandae fugiat doloremque exercitationem?</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 02 --> 
+                        <img src="imagens/projeto-02-cordel.jpg" alt="Projeto 2" class="foto">
+                        <div class="info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto Cordel</h3>
+                            <p>Projeto Construído para treinar efeito paralax em imagens.</p>
+                            <details class="descricao">
+                                <summary>Saiba Mais..</summary>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis sed tempora eveniet fuga cupiditate error aliquid. Harum itaque ut exercitationem. Nesciunt soluta ipsam voluptate aperiam repudiandae fugiat doloremque exercitationem?</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!-- Projeto 03 --> 
+                        <img src="imagens/projeto-05-login.jpg" alt="Projeto 3" class="foto">
+                        <div class="info">
+                            <p class="periodo">2026</p>
+                            <h3 class="titulo">Projeto Tela de Login</h3>
+                            <p>Projeto Construído para treinar alguns elementos de JavaScript.</p>
+                            <details class="descricao">
+                                <summary>Saiba Mais..</summary>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut corporis sed tempora eveniet fuga cupiditate error aliquid. Harum itaque ut exercitationem. Nesciunt soluta ipsam voluptate aperiam repudiandae fugiat doloremque exercitationem?</p>
+                            </details>
+                        </div>
+                    </div>
+                </div>
+
+            </article> <!-- Fim article projetos -->
+
+            <article id="cursos">
+                <h2><i class="fa-solid fa-certificate"></i> Cursos e Certificações</h2>
+
+                <div class="formacao-container">
+                    <div class="curso">
+                        <h3 class="instituicao">Fortinet Training Institute</h3>
+                        <p class="titulacao">Introudção ao Cenário de Ameaças</p>
+                    </div>
+
+                    <div class="curso">
+                        <h3 class="instituicao">Google Career Certificates</h3>
+                        <p class="titulacao">Suporte Técnico de TI</p>
+                        <p class="titulacao">Segurança Cibernética</p>
+                    </div>
+
+                    <div class="curso">
+                        <h3 class="instituicao">Cisco Networking Academy</h3>
+                        <p class="titulacao">Técnico em Redes</p>
+                        <p class="titulacao">Analista de Cibersegurança </p>
+                    </div>
+                </div>
+
+            </article> <!-- Fim article cursos -->
+        </section>
     </main>
 
     <footer>
-
+        Portifólio desenvolvido por <a href="https://github.com/danielturbino" target="_blank">Daniel Turbino</a> em 2026.
     </footer>
 
     <script src="scripts/script.js"></script>
