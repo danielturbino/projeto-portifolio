@@ -289,6 +289,9 @@ footer a:hover {
   }
 
   #projeto-container .projeto {
+    display: flex;
+    gap: 20px;
+    align-items: center;
     flex-direction: row-reverse;
     justify-content: space-between;
   }
@@ -299,6 +302,7 @@ footer a:hover {
 
   projeto-container .sites {
     display: block;
+    flex-shrink: 0;
     width: 220px;
     min-width: 220px;
   }
